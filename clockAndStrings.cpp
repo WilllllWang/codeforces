@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+
+void solve() {
     int n;
     cin >> n;
 
@@ -20,5 +21,14 @@ int main() {
         else
             cout << "NO" << endl;
     }
+}
+
+
+
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr); cout.tie(nullptr);
+    solve();
     return 0;
 }
